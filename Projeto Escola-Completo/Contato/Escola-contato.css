@@ -3,7 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #222222;
+  --text-primary: #000000;
+  --text-on-secondary: #ffffff;
+  --color-accent: #ffdd00;
+  --text-muted: #555555;
+  --border-light: #dddddd;
+}
 body {
     background-color: #ffffff;
     font-family: "Montserrat", Arial, sans-serif;
@@ -11,7 +19,11 @@ body {
     flex-direction: column;
     scroll-behavior: smooth;
 }
-
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
 .navbar {
     position: sticky;
     top: 0;
@@ -91,7 +103,7 @@ body {
 
 .contato-img {
   position: relative;
-  background-image: url("/SiteEscola/Captura de tela 2025-09-30 174027.png");
+  background-image: url("/Projeto Escola-Completo/Inicio/Imagens/Captura de tela 2025-09-30 174027.png");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -112,10 +124,10 @@ body {
 
 .contato-img h2 {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 60px;
+  font-size: 48px;
   font-weight: bold;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
