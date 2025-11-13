@@ -1,9 +1,4 @@
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     font-family: 'Inter', sans-serif;
@@ -12,7 +7,6 @@ body {
     line-height: 1.6;
     padding-top: var(--nav-height);
 }
-
 
 * {
   margin: 0;
@@ -29,7 +23,11 @@ body {
   --text-muted: #555555;
   --border-light: #dddddd;
 }
-
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
 .navbar {
     position: sticky;
     top: 0;
