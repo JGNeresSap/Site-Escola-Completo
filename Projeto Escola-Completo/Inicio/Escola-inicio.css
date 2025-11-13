@@ -13,6 +13,13 @@ body {
     padding-top: var(--nav-height);
 }
 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
 :root {
   --bg-primary: #ffffff;
   --bg-secondary: #222222;
@@ -21,13 +28,6 @@ body {
   --color-accent: #ffdd00;
   --text-muted: #555555;
   --border-light: #dddddd;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
